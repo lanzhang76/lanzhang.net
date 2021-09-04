@@ -282,7 +282,7 @@ export default {
   }
 
   .main {
-    left: 1rem;
+    left: 0rem;
     right: 1rem;
   }
 
@@ -299,18 +299,18 @@ export default {
   }
 
   .hover-title {
-    margin: 10px;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 300;
     display: inline;
     pointer-events: auto;
     cursor: pointer;
     text-decoration: none;
     color: var(--global-font-color);
-    margin-right: 20px;
+    margin: 0 20px 0 0;
   }
 
   .spantitle {
+    font-size: 25px;
     padding: 0px;
   }
 
